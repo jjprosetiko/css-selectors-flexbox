@@ -2,4 +2,62 @@
    OEFENEN MET FLEXBOX
 ========================================================= */
 
-/* Schrijf hier  jouw CSS! */
+/* 2.1 */
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* 2.1 */
+.two-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-grow: 2;
+}
+
+.two.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+/*2.3 */
+.three {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 300px;
+}
+
+.horizontal-nav {
+    list-style-type: none;
+    width: 300px;
+    min-height: 100px;
+}
+
+.nav-end {
+    width: 300px;
+    min-height: 100px;
+}
+
+/*2.4 */
+.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.four-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 2.5 */
+.five {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 1200px;
+}
